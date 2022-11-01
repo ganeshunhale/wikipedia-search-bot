@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Providecontext } from './contextapi';
+// import './app.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App Name="Ganesh" />
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );

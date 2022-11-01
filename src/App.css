@@ -1,38 +1,65 @@
+:root {
+  --light-black: rgb(58, 55, 55);
+  --red: rgb(0, 26, 255);
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+
+  margin-top: 6.5vh;
+  background-color: var(--red);
+  height: 10px;
+}
+.studentName {
+  color: brown;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ChatbotContainer {
+  width: 100px;
+  overflow: hidden;
+  background-color: var(--red);
+  height: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#chatBotId {
+  width: 100px;
+  overflow: hidden;
+  background-color: var(--red);
+  height: 200px;
+
+  /* margin-right: calc(10px,1); */
+}
+/* 
+* {
+  -ms-overflow-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+*::-webkit-scrollbar {
+  display: none;
+} */
+
+.NavLink {
+  text-decoration: none;
+  padding-top: 10px;
+  padding-right: 10px;
+  color: var(--light-black);
+}
+
+/* .NavLinkBrand {
+  text-decoration: none;
+  font-size: large;
+  padding-top: 10px;
+  padding-right: 10px;
+  color: var(black);
+  font-weight: bolder;
+  color: isActive ? "bold" : "lighter"
+} */
+.navbarclass{
+
+  background-color: aqua!important;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-direction: row;
+  
+  
+  
 }
